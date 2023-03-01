@@ -4,10 +4,28 @@
     background-color: red;
     display: flex;
     justify-content: center;
-
 }
 
-.header>img{
+.header-content{
+    max-width: 1700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.c1>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.d{
+    padding: 5px 15px;
+}
+
+.header-logo{
     width: 300px;
     margin-top: 7px;
     margin-left: 20px;
